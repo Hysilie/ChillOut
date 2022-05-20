@@ -73,32 +73,17 @@ h1:hover {
     text-align: center;
     z-index:3;
     opacity: 0.92;
-    padding: 5%;
-}
-
-.welcomeText {
-    text-align: center;
-}
-
-.welcomeText {
+    padding: 5%;   
     -ms-overflow-style: none; 
     scrollbar-width: none; 
     overflow-y: scroll; 
 }
+
 
 .welcome::-webkit-scrollbar {
     display: none; 
 }  
 
-.welcomeText {
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
-    overflow-y: scroll; 
-}
-
-.welcomeText::-webkit-scrollbar {
-    display: none; 
-}
 
 .fa-circle {
     color :rgba(213, 137, 14, 0.808);
