@@ -3,7 +3,6 @@
 }
 
 body {
-    overflow: hidden;
     color: #eee;
     font-family: sans-serif ;
     height: 100vh;
@@ -59,6 +58,7 @@ h1:hover {
 }
 
 .welcome {
+    scrollbar-width: none;
     overflow: scroll;
     font-size: 1.2em;
     color: rgb(246, 246, 232);
@@ -81,6 +81,7 @@ h1:hover {
 .welcomeText {
     overflow:scroll;
     text-align: center;
+    scrollbar-width: none;
 }
 
 
