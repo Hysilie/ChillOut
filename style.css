@@ -58,6 +58,7 @@ h1:hover {
 }
 
 .welcome {
+    overflow: scroll;
     font-size: 1.2em;
     color: rgb(246, 246, 232);
     transition: 1s;
