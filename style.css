@@ -58,8 +58,6 @@ h1:hover {
 }
 
 .welcome {
-    scrollbar-width: none;
-    overflow: scroll;
     font-size: 1.2em;
     color: rgb(246, 246, 232);
     transition: 1s;
@@ -79,12 +77,28 @@ h1:hover {
 }
 
 .welcomeText {
-    overflow:scroll;
     text-align: center;
-    scrollbar-width: none;
 }
 
+.welcomeText {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+}
 
+.welcome::-webkit-scrollbar {
+    display: none; 
+}  
+
+.welcomeText {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-y: scroll; 
+}
+
+.welcomeText::-webkit-scrollbar {
+    display: none; 
+}
 
 .fa-circle {
     color :rgba(213, 137, 14, 0.808);
