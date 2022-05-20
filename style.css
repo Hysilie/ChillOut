@@ -68,21 +68,13 @@ h1:hover {
     background-color: rgb(104, 95, 68);
     border: 1px solid rgb(154, 145, 105);
     width: 50%;
-    height: 50%;
+    height: auto;
 
     text-align: center;
     z-index:3;
     opacity: 0.92;
     padding: 5%;   
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
-    overflow-y: scroll; 
 }
-
-
-.welcome::-webkit-scrollbar {
-    display: none; 
-}  
 
 
 .fa-circle {
